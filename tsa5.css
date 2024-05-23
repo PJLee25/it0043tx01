@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg?w=1380&t=st=1716422332~exp=1716422932~hmac=c39c3e30ccdee2a0a8191866ecd1b3ba8f13de75da0320dbc541af592bc0b967);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 800px;
+    padding: 50;
+    margin: 50;
+}
+.card {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: url('/Images/Pokeball.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.grass { background-color: green; }
+.fire { background-color: red; }
+.water { background-color: blue; }
+.steel { background-color: aquamarine;}
+.dark { background-color: black }
+.fairy { background-color: pink; }
+.poison { background-color:purple; }
+.normal { background-color:grey; }
+.ghost { background-color:darkslateblue;}
+.buttons {
+    margin-top: 10px;
+}
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+.buttons button:hover {
+    background-color: #45a049;
+}
