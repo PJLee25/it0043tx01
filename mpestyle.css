@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/Pokeball01.png'); /* background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%; /* adjust as necessary */
+}
+
+.grid-item {
+    width: calc(25% - 20px);
+    margin:  5px;
+}
+
+.pokemon-icon {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pokemon-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.pokemon-name {
+    flex-grow: 1;
+}
+
+@media (max-width: 1200px) {
+    .grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .grid-item{
+        flex-basis: calc(33.33% - 20px);
+    }
+}
