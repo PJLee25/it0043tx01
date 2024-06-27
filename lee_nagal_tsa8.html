@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Simulator</title>
+<link rel="stylesheet" href="tsa8.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">BOX 1</div>
+    <div class="box">BOX 2</div>
+    <div class="box">BOX 3</div>
+  </div>
+
+  <div class="controls">
+    <label for="flex-direction">Flex Direction:</label>
+    <select id="flex-direction">
+      <option value="row">Row</option>
+      <option value="column">Column</option>
+    </select>
+
+    <label for="justify-content">Justify Content:</label>
+    <select id="justify-content">
+      <option value="flex-start">Start</option>
+      <option value="center">Center</option>
+      <option value="flex-end">End</option>
+      <option value="space-between">Space Between</option>
+      <option value="space-around">Space Around</option>
+      <option value="space-evenly">Space Evenly</option>
+    </select>
+
+    <label for="align-items">Align Items:</label>
+    <select id="align-items">
+      <option value="flex-start">Start</option>
+      <option value="center">Center</option>
+      <option value="flex-end">End</option>
+    </select>
+  </div>
+
+  <script src="tsa8.js"></script>
+</body>
+</html>
